@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Fetching data
-data <- airquality
+data <- "./something_else.txt"
 
 # Data Cleaning - Remove rows with NA
 data <- data[!is.na(data$Ozone) & !is.na(data$Solar.R) & !is.na(data$Wind) & !is.na(data$Temp) & !is.na(data$Month) & !is.na(data$Day), ]
